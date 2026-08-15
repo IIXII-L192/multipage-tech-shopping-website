@@ -16,4 +16,6 @@ export const router = createBrowserRouter([
       { path: "cart", Component: Cart },
     ],
   },
-]);
+], {
+  basename: "/multipage-tech-shopping-website"
+});
