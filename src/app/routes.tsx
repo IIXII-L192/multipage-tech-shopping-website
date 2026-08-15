@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
@@ -16,6 +16,4 @@ export const router = createBrowserRouter([
       { path: "cart", Component: Cart },
     ],
   },
-], {
-  basename: "/multipage-tech-shopping-website"
-});
+]);
